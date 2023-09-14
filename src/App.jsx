@@ -8,7 +8,9 @@ function App() {
   const [course_name, setCourse_name] = useState([]);
 
   const handleAddToCourse_name = course => {
-     console.log('course adding');
+    // console.log(course);
+    const addToCart = [...course_name, course];
+    setCourse_name(addToCart);
    }
 
   return (
@@ -18,7 +20,7 @@ function App() {
         <div>
           <Courses handleAddToCourse_name={handleAddToCourse_name}></Courses>
         </div>
-        <Course_name></Course_name>
+        <Course_name course_name={course_name}></Course_name>
       </div>
       
     </>

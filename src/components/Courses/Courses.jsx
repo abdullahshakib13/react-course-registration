@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Course from "../Course/Course";
+import PropTypes from "prop-types";
 
 
 const Courses = ({handleAddToCourse_name}) => {
@@ -22,5 +23,9 @@ const Courses = ({handleAddToCourse_name}) => {
         </div>
     );
 };
+
+Courses.propTypes = {
+    handleAddToCourse_name: PropTypes.func
+}
 
 export default Courses;
