@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "https://example.com/course1.jpg",
+    "course_name": "Introduction to Programming",
+    "course_details": "Learn the basics of programming and coding.",
+    "credit": 3,
+    "price": 49.99
+  },
+  {
+    "id": 2,
+    "image": "https://example.com/course2.jpg",
+    "course_name": "Web Development Fundamentals",
+    "course_details": "Start your journey into web development.",
+    "credit": 4,
+    "price": 79.99
+  },
+  {
+    "id": 3,
+    "image": "https://example.com/course3.jpg",
+    "course_name": "Data Science Essentials",
+    "course_details": "Explore the world of data science and analytics.",
+    "credit": 5,
+    "price": 99.99
+  },
+  {
+    "id": 4,
+    "image": "https://example.com/course4.jpg",
+    "course_name": "Graphic Design for Beginners",
+    "course_details": "Create stunning visual designs.",
+    "credit": 3,
+    "price": 59.99
+  },
+  {
+    "id": 5,
+    "image": "https://example.com/course5.jpg",
+    "course_name": "Business Management Strategies",
+    "course_details": "Develop key skills for effective business management.",
+    "credit": 4,
+    "price": 69.99
+  },
+  {
+    "id": 6,
+    "image": "https://example.com/course6.jpg",
+    "course_name": "Machine Learning Fundamentals",
+    "course_details": "Dive into the exciting world of machine learning.",
+    "credit": 5,
+    "price": 119.99
+  },
+  {
+    "id": 7,
+    "image": "https://example.com/course7.jpg",
+    "course_name": "Digital Marketing Mastery",
+    "course_details": "Master the art of digital marketing and advertising.",
+    "credit": 4,
+    "price": 89.99
+  },
+  {
+    "id": 8,
+    "image": "https://example.com/course8.jpg",
+    "course_name": "Creative Writing Workshop",
+    "course_details": "Unlock your creativity through writing.",
+    "credit": 3,
+    "price": 49.99
+  },
+  {
+    "id": 9,
+    "image": "https://example.com/course9.jpg",
+    "course_name": "Cybersecurity Fundamentals",
+    "course_details": "Learn the basics of cybersecurity and online safety.",
+    "credit": 4,
+    "price": 79.99
+  }
+]
