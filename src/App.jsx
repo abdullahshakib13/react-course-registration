@@ -13,7 +13,6 @@ function App() {
   const [totalRemaining, setTotalRemaining] = useState(0);
 
   const handleAddToCourse_name = course => {
-    // console.log(course);
     const isExist = course_name.find((item) => item.id === course.id);
     
     let count = course.credit;
@@ -32,31 +31,20 @@ function App() {
         const addToCart = [...course_name, course];
       setCourse_name(addToCart);
       }
-
-      // console.log(count);
-      
     }
     setTotalCredit(count);
     
   }
-  
-  // const handleTotalCredit = credit => {
-  //   // console.log('credit add',credit);
-  //   const newTotalCredit = totalCredit + credit;
-  //   // console.log(newTotalCredit);
-  //   setTotalCredit(newTotalCredit);
-  // }
 
   return (
     <>
       <Header></Header>
-      <div className="flex w-9/12 mx-auto">
-        <div className="w-3/4">
+      <div className="flex w-10/12 mx-auto mt-6">
+        <div className="w-9/12">
           <Courses handleAddToCourse_name={handleAddToCourse_name}
-            // handleTotalCredit={handleTotalCredit}
           ></Courses>
         </div>
-        <div className="w-1/4">
+        <div className="w-3/12 ml-8">
           <Course_name course_name={course_name} totalRemaining={totalRemaining} totalCredit={totalCredit}></Course_name>
         </div>
       </div>

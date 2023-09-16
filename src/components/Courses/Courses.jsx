@@ -15,13 +15,10 @@ const Courses = ({handleAddToCourse_name}) => {
     },[])
     return (
         <div className="">
-            {/* <h2>Courses:{courses.length}</h2> */}
-            <div className=" grid grid-cols-3 gap-7">
+            <div className=" grid grid-cols-3 gap-4">
               {
                     courses.map(course => <Course key={course.id} course={course}
-                        handleAddToCourse_name={handleAddToCourse_name}
-                        // handleTotalCredit={handleTotalCredit}
-                    ></Course>)
+                        handleAddToCourse_name={handleAddToCourse_name} ></Course>)
             }
             </div>
         </div>

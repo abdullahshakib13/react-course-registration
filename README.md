@@ -59,7 +59,6 @@ function App() {
   const [totalRemaining, setTotalRemaining] = useState(0);
 
   const handleAddToCourse_name = course => {
-    // console.log(course);
     const isExist = course_name.find((item) => item.id === course.id);
 
     let count = course.credit;
@@ -78,9 +77,6 @@ function App() {
         const addToCart = [...course_name, course];
       setCourse_name(addToCart);
       }
-
-      // console.log(count);
-
     }
     setTotalCredit(count);
 
